@@ -1,0 +1,143 @@
+* {
+	margin:0px;
+}
+
+body {
+	font-family: arial, verdana, sans-serif;
+	background-color:#508044;
+}
+
+#menu{
+	text-align: center;
+	width: 100%;
+	height: auto;
+	min-height:40px;
+	padding: 15px 10px 15px 0px;
+	margin:0 auto;
+	background-color:black;
+	
+}
+#menu ul {
+	list-style-type:none;
+}
+#menu ul li a {
+	color:black;
+	float:left;
+	display: inline-block;
+	text-decoration:none;
+	background-color:lightgray;
+	padding: 8px 25px;
+	margin-right:15px;
+	transition:background-color 0.3s linear;
+}
+#menu ul li a:hover {
+	color: white;
+	background-color: red;
+	border-bottom: 5px solid white;
+}
+
+#menu ul li a:visited{
+	color: grey;
+	text-decoration: none;
+}
+.clear {
+	clear:both;
+}
+
+#principal {
+	width: 98%;
+	height: auto;
+	margin:10px auto;
+	padding:10px;
+	background-color: #6A8727;
+}
+	#section1 {
+		float: left;
+	width: 99%;
+	height: auto;
+	background-color: #0058D3;
+	margin: 10px;
+	padding:5px;
+}
+.foto {
+	width: 98%;
+	height: 30%;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.articulo-izquierda {
+	float:left;
+	width:48%;
+	height: auto;
+	margin:10px ;
+	padding:4px;
+	background-color: #0CA3EB;
+}
+.articulo-derecha {
+	float:right;
+	width:48%;
+	height: auto;
+	margin:10px ;
+	padding:4px;
+	background-color: #0CA3EB;
+}
+
+	.mini-caja {
+	float:right;
+	width:12%;
+	height: 10%;
+	margin:2px ;
+	padding:4px;
+	background-color: #34CEED;
+}
+	#section2 {
+	float: left;
+	width: 99%;
+	height: auto;
+	background-color: #748A3C;
+	margin: 10px;
+	padding:5px;
+}
+
+.caja-izquierda {
+	float:left;
+	width:60%;
+	height:auto;
+	margin:10px ;
+	padding:4px;
+	background-color: #748A3C;
+}
+
+.caja-pequeña {
+	float: left;
+	width:40%;
+	height: auto;
+	margin:5px ;
+	padding:20px;
+	background-color: #E08B3A;
+	}
+	.caja-derecha {
+	float:right;
+	width:30%;
+	height:auto;
+	margin:10px ;
+	padding:4px;
+	background-color: #7829E0;
+}
+	#buscar a{
+		display: inline-block;
+		float: right;
+		color: white;
+		padding: 8px 25px;
+		margin-right: 75px;
+		text-decoration: none;
+	}
+	#footer {
+	width: 100%;
+	height: auto;
+	background-color: black;
+	text-align: center;
+	font-size: 2em;
+	border: 1px solid black;
+	color: white;
+}
